@@ -1,40 +1,40 @@
-# 🚖 Zuber: Análisis de Datos de Taxis en Chicago
+# 🚖 Zuber: Chicago Taxi Data Analysis
 
-## 📝 Contexto
-**Zuber** es un proyecto de análisis de datos enfocado en entender el comportamiento de las empresas de taxis y los patrones de viajes en Chicago durante noviembre de 2017. El objetivo es realizar un análisis exploratorio de datos sobre las compañías de taxis, las ubicaciones de finalización de los viajes y la duración de los viajes, y evaluar cómo las condiciones climáticas afectan la duración de los viajes desde el Loop hasta el Aeropuerto Internacional O'Hare. Este análisis proporcionará información valiosa sobre cómo optimizar los servicios de taxi y adaptarse a las condiciones meteorológicas.
+## 📝 Context
+**Zuber** is a data analysis project focused on understanding the behavior of taxi companies and travel patterns in Chicago during November 2017. The goal is to perform an exploratory data analysis of the taxi companies, trip completion locations, trip durations, and evaluate how weather conditions affect trip durations from the Loop to O'Hare International Airport. This analysis will provide valuable insights on how to optimize taxi services and adapt to weather conditions.
 
-## 🛠️ Herramientas Utilizadas
-- **Python**: Análisis de datos y modelado estadístico.
-- **Pandas**: Limpieza, transformación y análisis de datos.
-- **Matplotlib** y **Seaborn**: Visualización de patrones y tendencias en los viajes y las ubicaciones.
-- **SciPy**: Pruebas estadísticas para validar las hipótesis sobre la duración de los viajes en condiciones climáticas específicas.
-- **Jupyter Notebook**: Documentación interactiva y detallada del análisis.
+## 🛠️ Tools Used
+- **Python**: Data analysis and statistical modeling.
+- **Pandas**: Data cleaning, transformation, and analysis.
+- **Matplotlib** and **Seaborn**: Visualization of patterns and trends in trips and locations.
+- **SciPy**: Statistical tests to validate hypotheses about trip duration under specific weather conditions.
+- **Jupyter Notebook**: Interactive and detailed documentation of the analysis workflow.
 
-## 📈 Análisis de Resultados
-El proyecto se estructuró en varias fases:
+## 📈 Results Analysis
+The project was structured in several phases:
 
-1. **Preprocesamiento de Datos**:
-   - Importación de los conjuntos de datos `project_sql_result_01.csv` y `project_sql_result_04.csv`.
-   - Verificación y limpieza de los datos para asegurar la integridad de la información.
-   - Conversión de los datos a formatos adecuados y verificación de los tipos de datos.
+1. **Data Preprocessing**:
+   - Importing the datasets `project_sql_result_01.csv` and `project_sql_result_04.csv`.
+   - Data verification and cleaning to ensure data integrity.
+   - Converting data into appropriate formats and checking data types.
 
-2. **Análisis Descriptivo**:
-   - Análisis de las compañías de taxis y el número de viajes realizados en los días 15 y 16 de noviembre de 2017.
-   - Identificación de los 10 barrios de Chicago con el mayor número de finalizaciones de viajes.
-   - Creación de gráficos para visualizar la relación entre las empresas de taxis y el número de viajes realizados, así como los 10 barrios más populares por finalización de viajes.
+2. **Descriptive Analysis**:
+   - Analyzing the taxi companies and the number of trips made on November 15th and 16th, 2017.
+   - Identifying the 10 Chicago neighborhoods with the most trip completions.
+   - Creating visualizations to show the relationship between taxi companies and the number of trips, as well as the 10 most popular neighborhoods by trip completion.
 
-3. **Pruebas de Hipótesis**:
-   - Evaluación de la hipótesis de que "La duración promedio de los viajes desde el Loop hasta el Aeropuerto Internacional O'Hare cambia los sábados lluviosos".
-   - Análisis de los datos de duración de los viajes, condiciones climáticas y fechas para determinar si hay una diferencia significativa en los viajes durante los sábados lluviosos.
+3. **Hypothesis Testing**:
+   - Testing the hypothesis that "The average duration of trips from the Loop to O'Hare International Airport changes on rainy Saturdays."
+   - Analyzing trip duration, weather conditions, and dates to determine if there is a significant difference in trips on rainy Saturdays.
 
-4. **Visualización de Datos**:
-   - Gráfico de barras mostrando el número de viajes realizados por cada compañía de taxis.
-   - Gráfico de barras con los 10 barrios principales de Chicago por número de finalizaciones de viajes.
+4. **Data Visualization**:
+   - Bar chart showing the number of trips made by each taxi company.
+   - Bar chart with the top 10 Chicago neighborhoods by the number of trip completions.
 
-## 📋 Conclusiones
-- **Compañías de Taxis**: Las compañías con un mayor número de viajes probablemente tienen una mayor cobertura o popularidad entre los usuarios, lo que puede estar relacionado con la ubicación o la calidad del servicio.
-- **Ubicación de los Viajes**: Los barrios más populares para la finalización de viajes están concentrados en el centro de Chicago, lo que refleja las áreas de mayor demanda de transporte.
-- **Impacto de las Condiciones Climáticas**: La prueba de hipótesis mostró si las condiciones climáticas afectan significativamente la duración de los viajes, y los resultados ayudaron a entender cómo los días lluviosos impactan los viajes desde el Loop hacia el Aeropuerto O'Hare.
-- **Optimización de Servicios**: Los resultados de este análisis pueden ayudar a las compañías de taxis a ajustar sus operaciones y a mejorar la planificación de rutas y horarios, especialmente en condiciones climáticas desfavorables.
+## 📋 Conclusions
+- **Taxi Companies**: Companies with a higher number of trips likely have greater coverage or popularity among users, which may be related to location or service quality.
+- **Trip Locations**: The most popular neighborhoods for trip completions are concentrated in downtown Chicago, reflecting the areas with the highest demand for transportation.
+- **Impact of Weather Conditions**: The hypothesis test showed whether weather conditions significantly affect trip duration, and the results helped understand how rainy days impact trips from the Loop to O'Hare Airport.
+- **Service Optimization**: The results of this analysis can help taxi companies adjust their operations and improve route and schedule planning, especially under unfavorable weather conditions.
 
-Este proyecto proporciona una visión valiosa sobre los patrones de viajes en taxi en Chicago, lo que puede ser utilizado para optimizar la eficiencia operativa de las empresas de transporte en la ciudad.
+This project provides valuable insights into taxi travel patterns in Chicago, which can be used to optimize operational efficiency for transportation companies in the city.
